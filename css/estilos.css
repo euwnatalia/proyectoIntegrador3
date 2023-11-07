@@ -9,7 +9,7 @@
 
 .barraDeMenu{
     width: 100%;
-    background-color: grey;
+    background-color: #d79143;
     display: flex;
     height: 4em;
     justify-content: space-between;
@@ -29,7 +29,7 @@
 }
 .menuList li a{
    text-decoration: none;
-    color: white;
+    color:black;
 
 }   
 
@@ -82,4 +82,30 @@
 
 .item-description >h4 {
     margin-bottom: 10px;
+}
+
+.menuList .submenu {
+    display: none;
+    position: absolute;
+}
+
+.menuList li:hover .submenu {
+    display: block; 
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+}
+
+.menuList > li {
+    position: relative;
+}
+
+.menuList li {
+    display: inline-block;
+}
+
+.menuList li:hover {
+    background-color: #f0f0f0; 
 }
