@@ -109,3 +109,47 @@
 .menuList li:hover {
     background-color: #f0f0f0; 
 }
+.reserva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconoReserva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+
+   
+}
+.reserva>h4{
+    font-size: 3em;
+    color: #d79143;
+}
+.iconoReserva>i{
+    color: #d79143;
+    font-size: 50px;
+}
+.iconoReserva>span{
+    font-size: 30px;
+}
+
+.foot-nav{
+    background-color: #d79143;
+}
+.foot-nav>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px 0;
+}
