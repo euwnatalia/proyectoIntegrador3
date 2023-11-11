@@ -127,7 +127,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 60px;
+    margin: 50px;
 
    
 }
@@ -152,4 +152,10 @@
     flex-direction: column;
     list-style: none;
     padding: 20px 0;
+}
+.foot-nav>i{
+    font-size: 32px;
+    display: flex;
+    justify-content:center;
+    
 }
