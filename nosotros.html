@@ -3,31 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bodegas Bianchi</title>
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:wght@100;300&family=Montserrat:wght@100;200&family=Oswald:wght@200&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https: //fonts.googleapis.com/css2? family= Dela+Gothic+One & family= Lato:wght@100;300 & family= Montserrat:wght@100;200 & family= Oswald:wght@200 & family= Roboto & mostrar=intercambiar" rel="hoja de estilo">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <title>Bodegas Bianchi</title>
 </head>
 <body>
-    <header> 
-        <img src="https://www.bodegasbianchi.com.ar/cdn/shop/files/logo_0da61f85-71aa-4621-b181-2726657b0dae_160x.png?v=1613743837" alt="Bodegas Bianchi" height="112" width="350">
-
+    <header class="barraDeMenu">
+        <h1>Bodegas Bianchi</h1>
         <nav>
-            <button>Nosotros</button> <i class='bx bxs-face' ></i>
-            <button>Visitanos</button> <i class='bx bx-world' ></i>
-            <button>Contacto</button> <i class='bx bx-heart' ></i>
-            
+            <ul class="menuList">
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li class="submenu-parent">
+                    <a href="#">Visitanos</a>
+                    <ul class="submenu">
+                        <li><a href="./sanRafael.html">San Rafael</a></li>
+                        <li><a href="./valleDeUco.html">Valle de Uco</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
         </nav>
-
-       
     </header>
-    
-    <h1>
-    <button>Nosotros</button> 
-    <h2>Nuestra Historia </h2>
+
+    <main>
+       <section class="tituloN">
+        <h2>Nosotros</h2>
+       </section>
+       <section class="Nuestra historia2">
+        <h3>Nuestra Historia</h3>
+       </section>
+    </main>
+
+
+  
     <p>Somos una Bodega con Herencia Familiar que se proyecta con sus valores de tradición, calidad, prestigio, innovación y contemporaneidad en la vitivinicultura argentina.
 
         Somos parte del patrimonio y la riqueza de nuestra tierra. Somos orgullo, logros y una calidad y excelencia irrenunciables en todos nuestros productos, hoy y mirando al futuro.
@@ -55,17 +66,15 @@
 
     
     
-    </footer>
-        <ul>
-            <p>Redes Sociales</p>
-            <li><button> Facebook </button></li> <i class='bx bxl-facebook-circle' ></i>
-            <li><button>Instagram</button></li> 
-            <a href="https://www.instagram.com/farmacityoficial/?hl=es"> Nuestro Instagram </a><i class='bx bxl-instagram' ></i></button></li> 
-            <li><button>Twitter</button></li> <i class='bx bxl-twitter' ></i>
+    <footer class="foot-nav">
+        <ul class="menuList">
+            <li><a href="./nosotros.html">Nosotros</a></li>  
+            <span>VISITANOS</span>
+            <li><a href="./sanRafael.html">San Rafael</a></li>
+            <li><a href="./valleDeUco.html">Valle de Uco</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
-        <p>¿Necesitas Ayuda?</p>
-        <p> Contacto 0800-666-4321- </p>
-        <a href="https://www.farmacity.com/Farmacity/contacto/">Hacé click para contactarnos</a>
+        <span>© grupo tres</span>
     </footer>
 </body>
 </html>

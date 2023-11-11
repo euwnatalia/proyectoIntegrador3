@@ -153,9 +153,23 @@
     list-style: none;
     padding: 20px 0;
 }
+
 .foot-nav>i{
     font-size: 32px;
     display: flex;
     justify-content:center;
     
 }
+
+.tituloN>h2{
+    padding: 80px 0;
+    font-size: 90px; 
+    align-items: start;
+}
+
+.tituloR>h2{
+    padding: 80px 0;
+    font-size: 90px ;
+    align-items: center ;
+}
+
