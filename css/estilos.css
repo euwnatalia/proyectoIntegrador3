@@ -65,7 +65,7 @@
 } 
 /*valle de uco titulos*/
 .titulo{
-    background-image: url(./../img/valledeuco.jpg);
+    background-image: url(./../img/valledeuco2.jpg);
     height: 65vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,10 +74,11 @@
 }
 
 .titulo>h2{
-    font-size: 8em;
+    font-size: 6em;
     color: #ffffffab;
     position: relative;
-    top: 59%;
+    top: 55%;
+    text-align: center;
 }
 /*valle de uco experiencias*/
 .experiencias>h3{
@@ -180,6 +181,12 @@
     justify-content:center;
     
 }
+.footer{
+    background-color: #777;
+    color: #fff;
+    padding: 20px;
+    text-align:center;
+}
 
 .tituloN>h2{
     padding: 80px 0;
@@ -279,4 +286,10 @@
     height: auto;
     display: block;
     margin: 20px;
+}
+/* api maps */
+#map {
+    margin: 10%;
+	height: 300px;
+	width: 30%;
 }
