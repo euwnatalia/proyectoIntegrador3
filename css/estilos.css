@@ -7,6 +7,12 @@
 
 }
 /*menu*/
+.barraDeMenu>h1{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ffffffab;
+    text-transform: uppercase;
+}
 .barraDeMenu{
     width: 100%;
     background-color: #d79143;
@@ -237,4 +243,40 @@
 
 .formulario-suscripcion button:hover {
     background-color: #E69500; 
+}
+/* contacto.html */
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 20px;
+
+}
+.contact-descripcion {
+    max-width: 50%;
+}
+
+.contact-descripcion h2 {
+    color: #333;
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+.contact-descripcion p {
+    color: #777; 
+    font-size: 1rem; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-image {
+    max-width: 50%;
+}
+
+.contact-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 20px;
 }
