@@ -120,11 +120,16 @@
 
 .item-description >h4 {
     margin-bottom: 10px;
+    font-size: 35px;
 }
 .item-description >h5 {
     margin-bottom: 10px;
-    font-size: 90%;
+    font-size: 30px;
     color: #d79143;
+}
+.item-description >p {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 /*valle de uco reserva*/
@@ -148,9 +153,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 50px;
-
-   
+    margin: 50px; 
 }
 .reserva>h4{
     font-size: 3em;
@@ -164,23 +167,6 @@
     font-size: 30px;
 }
 /*footer*/
-.foot-nav{
-    background-color: #d79143;
-}
-.foot-nav>ul{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    list-style: none;
-    padding: 20px 0;
-}
-    
-.foot-nav>i{
-    font-size: 32px;
-    display: flex;
-    justify-content:center;
-    
-}
 .footer{
     background-color: #777;
     color: #fff;
@@ -212,6 +198,7 @@
 .contenido-suscripcion {
     display: flex;
     align-items: center; 
+   
 }
 
 .contenido-suscripcion i {
@@ -225,12 +212,12 @@
 }
 
 .contenido-suscripcion h2 {
-    font-size: 18px;
+    font-size: 22px;
     color: #333;
 }
 
 .contenido-suscripcion p {
-    font-size: 14px;
+    font-size: 20px;
     color: #777; 
 }
 
@@ -260,32 +247,27 @@
     margin: 20px;
 
 }
-.contact-descripcion {
+.contactoDescripcion {
     max-width: 50%;
 }
 
-.contact-descripcion h2 {
+.contactoDescripcion> h2 {
     color: #333;
-    font-size: 2rem; 
-    margin-bottom: 20px;
+    font-size: 40px; 
+    margin: 20px;
 }
 
-.contact-descripcion p {
+.contactoDescripcion>p {
     color: #777; 
-    font-size: 1rem; 
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 25px; 
+    margin: 20px;
 }
 
-.contact-image {
-    max-width: 50%;
-}
-
-.contact-image img {
+.contactoImage>img {
     width: 100%; 
     height: auto;
     display: block;
-    margin: 20px;
+    margin: 50px;
 }
 /* api maps */
 #map {
@@ -308,6 +290,7 @@
     flex-direction: column;
 }
 
+>>>>>>HEAD
 .visitabodega1>h3{
     flex: 1;
     margin: 0 60px;
@@ -351,3 +334,55 @@
     flex: 5;
     margin: 0 90px;
  }
+/* formulario contacto.html*/
+.oculto {
+    display: none;
+}
+
+#formularioCliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d79143;
+    color: #fff;
+}
+
+.paso {
+    border: 2px solid #ddd;
+    padding: 20px;
+
+}
+.formulario>button{
+    background-color: #d79143;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    align-self: center;
+}
+
+.formulario>button:hover {
+    background-color: #E69500; 
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%; 
+    margin: 65px; 
+}
+.formulario>h2{
+    color: #333;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.formulario>p {
+    color: #777;
+    font-size: 25px;
+    margin: 20px;
+}
+
