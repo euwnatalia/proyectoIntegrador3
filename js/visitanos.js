@@ -1,8 +1,8 @@
-//mapas de visitanos.html
-function iniciarMap(){
-    var coord = {lat:-31.3549249 ,lng: -64.3731489};
-    var map = new google.maps.Map(document.getElementById('map'),{
-      zoom: 10,
+//mapas de visitanos.html san rafael
+function iniciarMapSR(){
+    var coord = {lat:-34.5828004 ,lng: -68.42681};
+    var map = new google.maps.Map(document.getElementById('mapSR'),{
+      zoom: 15,
       center: coord
     });
     var marker = new google.maps.Marker({
@@ -10,3 +10,4 @@ function iniciarMap(){
       map: map
     });
 }
+
