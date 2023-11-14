@@ -290,7 +290,7 @@
     flex-direction: column;
 }
 
->>>>>>HEAD
+HEAD
 .visitabodega1>h3{
     flex: 1;
     margin: 0 60px;
@@ -384,5 +384,27 @@
     color: #777;
     font-size: 25px;
     margin: 20px;
+}
+
+.nuestrahistoria2>h3 {
+    flex: 1;
+    margin: 0 60px;
+    color: #d79143;
+}
+
+.vision>h2{
+    flex: 1;
+    margin: 0 60px;
+    color: #d79143;
+}
+
+.lahistoria{
+    margin: 0 70px;
+    flex-direction: column;
+}
+
+.item img{
+    flex-direction: column;
+    justify-self: center;
 }
 
