@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
+    <script type="text/javascript" src="./js/main.js" defer></script>
     <title>Bodegas Bianchi</title>
 </head>
 <body>
@@ -28,14 +29,54 @@
     </header>
     <main>
         <section class="contacto">
-            <div class="contact-descripcion">
+            <div class="contactoDescripcion">
                 <h2>CONTACTO TIENDA ONLINE</h2>
                 <p>¡Gracias por considerar visitar nuestra bodega! Estamos emocionados de compartir nuestra pasión por el vino contigo. Si estás interesado en realizar reservas para una experiencia única enológica o tienes preguntas específicas sobre nuestras instalaciones, no dudes en ponerte en contacto con nosotros.</p>
                 <p>Para realizar reservas o consultas relacionadas con las experiencias en la bodega, por favor utiliza el formulario de reserva proporcionado en esta página. Estamos comprometidos a asegurarnos de que tu visita sea inolvidable y personalizada a tus preferencias.</p>      
             </div>
-            <div class="contact-image">
+            <div class="contactoImage">
                 <img src="./img/callcenter.jpg" alt="callCenter">
             </div>
+        </section>
+        <section class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <p>Por favor, completa el siguiente formulario para que podamos ponernos en contacto con vos.</p>
+        <form id="formularioCliente">
+            <div class="paso activo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div class="paso oculto">
+                <label for="provincia">Provincia:</label>
+                <input type="text" id="provincia" name="provincia">
+            </div>
+            <div class="paso oculto">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="paso oculto">
+                <label for="experiencia">Experiencia a Consultar:</label>
+                <input type="text" id="experiencia" name="experiencia">
+                <label for="detalles">Detalles de la Consulta:</label>
+                <textarea id="detalles" name="detalles"></textarea>
+            </div>
+            <div class="paso oculto" id="resumen">
+                <p id="resumenNombre"></p>
+                <p id="resumenApellido"></p>
+                <p id="resumenProvincia"></p>
+                <p id="resumenTelefono"></p>
+                <p id="resumenEmail"></p>
+                <p id="resumenExperiencia"></p>
+                <p id="resumenDetalles"></p>
+            </div>
+        </form>
+        
+        <button id="btnSiguiente" class="activo ">Siguiente</button>
+        <button id="btnEnviar" class="oculto">Enviar</button>
         </section>
     </main>
     <footer class="footer">
