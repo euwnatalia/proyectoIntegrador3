@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
+    
     <title>Bodegas Bianchi</title>
 </head>
 <body>
@@ -27,10 +28,28 @@
         </nav>
     </header>
     <main>
-        <div id="map"></div>
-            <script src="./js/visitanos.js"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
-    </main>
+        <section class="mapaSR">
+            <div class="mapaDescripcionSR">
+                <h2>San Rafael</h2>
+                <p>Ubicada en San Rafael, Mendoza, Bodegas Bianchi se sitúa en tierras privilegiadas con grandes virtudes para la elaboración de vinos y espumantes. Camine por los viñedos, aprenda sobre el proceso de elaboración de nuestros productos mientras recorre la bodega, o simplemente siéntese a disfrutar una copa de nuestros mejores exponentes premiados y reconocidos en el mundo.</p>
+                <a href="./sanRafael.html">Ver experiencias</a>
+            </div>
+            <div id="mapSR">
+                <script src="./js/visitanos.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOUGWne5SDickt6__HfQ6190ZDbBDM2WM&callback=iniciarMapSR"></script>
+            </div>
+        </section>
+        <section class="mapaVDU">
+            <div class="mapaDescripcionVDU">
+                <h2>Valle de Uco</h2>
+                <P>Ubicada en Valle de Uco, Mendoza, a 1.100 metros sobre el nivel del mar, nuestras vides reciben las bondades de los rayos solares y de las aguas andinas, lo que genera un microclima ideal para la producción de blancos, tintos y espumantes de la más alta calidad. Camine por los viñedos, aprenda sobre el proceso de elaboración de nuestros productos mientras recorre la bodega, o simplemente siéntese a disfrutar una copa de nuestros mejores exponentes premiados y reconocidos en el mundo.</P>
+                <a href="./valleDeUco.html">Ver experiencias</a>
+            </div>
+            <div id="mapVDU">
+                <script src="./js/vdu.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOUGWne5SDickt6__HfQ6190ZDbBDM2WM&callback=iniciarMapVDU"></script>             </div>
+        </section>
+     </main>
     <footer class="footer">
         <span>© creado por cami y nati, grupo tres|Neoris 2023</span>
     </footer>

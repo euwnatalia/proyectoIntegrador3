@@ -269,12 +269,7 @@
     display: block;
     margin: 50px;
 }
-/* api maps */
-#map {
-    margin: 10%;
-	height: 300px;
-	width: 30%;
-}
+
 
 
 .crea{
@@ -290,7 +285,6 @@
     flex-direction: column;
 }
 
->>>>>>HEAD
 .visitabodega1>h3{
     flex: 1;
     margin: 0 60px;
@@ -386,3 +380,85 @@
     margin: 20px;
 }
 
+/* visitanos.html */
+/* api maps */
+#mapSR {
+    margin: 10%;
+	height: 300px;
+	width: 500%;
+    
+}
+.mapaSR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapaDescripcionSR{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 2%;
+    
+}
+.mapaDescripcionSR>h2{
+    color: #d79143;
+    font-size: 40px;
+    margin: 20px;
+}
+.mapaDescripcionSR>p{
+    color: #777;
+    font-size: 20px;
+    margin: 15px;
+}
+.mapaDescripcionSR>a{
+    background-color: #d79143;
+    color: #fff;
+    font-size: 25px;
+    margin: 8px;
+    padding: 2%;
+    text-decoration: none;
+}
+.mapaDescripcionSR>a:hover{
+    background-color: #E69500; 
+}
+#mapVDU {
+    margin: 10%;
+	height: 300px;
+	width: 500%;
+    
+}
+.mapaVDU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapaDescripcionVDU{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 2%;
+    
+}
+.mapaDescripcionVDU>h2{
+    color: #d79143;
+    font-size: 40px;
+    margin: 20px;
+}
+.mapaDescripcionVDU>p{
+    color: #777;
+    font-size: 20px;
+    margin: 15px;
+}
+.mapaDescripcionVDU>a{
+    background-color: #d79143;
+    color: #fff;
+    font-size: 25px;
+    margin: 8px;
+    padding: 2%;
+    text-decoration: none;
+}
+.mapaDescripcionVDU>a:hover{
+    background-color: #E69500; 
+}
