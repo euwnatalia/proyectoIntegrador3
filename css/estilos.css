@@ -307,3 +307,47 @@
     align-items: center;
     flex-direction: column;
 }
+
+.visitabodega1>h3{
+    flex: 1;
+    margin: 0 60px;
+    color: #d79143;
+}
+
+
+
+
+.visitabodega{
+    margin-bottom: 10px;
+    font-size: 90%;
+    color: #d79143;
+    margin: 0 60;
+}
+
+
+
+.visita{
+    flex: 1;
+    margin: 0 90px;
+}
+.creatucortevino>h3{
+    flex: 1;
+    margin: 0 60px;
+    color: #d79143;
+}
+
+   
+ .itemcrear{
+    flex: 1;
+    margin: 0 90px;
+ }   
+
+ 
+ .crea{
+    flex: 1;
+    margin: 0 90px;
+ }
+ .crearvino{
+    flex: 5;
+    margin: 0 90px;
+ }
