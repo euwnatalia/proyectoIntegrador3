@@ -525,4 +525,38 @@ HEAD
         width: 100%;
         color: #ffffffab;
     }
+/* nosotros2.html */
+    .tituloNosotros2{
+        background-image: url(./../img/grapes-vineyard-food-leaves-fruit-1141491-wallhere.com.jpg);
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    
+    .tituloNosotros2>h2{
+        font-size: 6em;
+        color: #ffffffab;
+        position: relative;
+        top: 60%;
+        text-align: center;
+    }
 
+    /* nosotros2.html */
+    .tituloSanRafael2{
+        background-image: url(./../img/IMG_2051_1024x1024.webp);
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    
+    .tituloSanRafael2>h2{
+        font-size: 6em;
+        color: #ffffffab;
+        position: relative;
+        top: 60%;
+        text-align: center;
+    }
