@@ -560,3 +560,47 @@ HEAD
         top: 60%;
         text-align: center;
     }
+    /* nosotros2.html */
+   
+
+    .nosotros2 {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row-reverse; 
+        justify-content: space-between;
+        margin-bottom: 30px;
+        
+    }
+    .nosotrosImagen{
+        flex: 1;
+        margin: 0 50px;
+    }
+    
+    .nosotrosImagen>img {
+        align-items: flex-end;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    .nosotrosDescription {
+        flex: 1;
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    
+    .nosotrosDescription >p {
+        flex:1;
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 20px;
+    
+    }
+    .nosotrosDescription>h3{
+        margin-bottom: 10px;
+        font-size: 35px;
+        color: #d79143;
+        text-align: center;
+        
+    }
